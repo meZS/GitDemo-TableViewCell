@@ -15,6 +15,8 @@
 		887AEFD41DED424000972868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887AEFD21DED424000972868 /* LaunchScreen.storyboard */; };
 		887AEFDF1DED424000972868 /* TableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887AEFDE1DED424000972868 /* TableViewCellTests.m */; };
 		887AEFEA1DED424000972868 /* TableViewCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887AEFE91DED424000972868 /* TableViewCellUITests.m */; };
+		887AEFFA1DED429C00972868 /* VCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 887AEFF81DED429C00972868 /* VCTableViewCell.m */; };
+		887AEFFB1DED429C00972868 /* VCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887AEFF91DED429C00972868 /* VCTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		887AEFE51DED424000972868 /* TableViewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		887AEFE91DED424000972868 /* TableViewCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellUITests.m; sourceTree = "<group>"; };
 		887AEFEB1DED424000972868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887AEFF71DED429C00972868 /* VCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTableViewCell.h; sourceTree = "<group>"; };
+		887AEFF81DED429C00972868 /* VCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTableViewCell.m; sourceTree = "<group>"; };
+		887AEFF91DED429C00972868 /* VCTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				887AEFC81DED424000972868 /* AppDelegate.m */,
 				887AEFCA1DED424000972868 /* ViewController.h */,
 				887AEFCB1DED424000972868 /* ViewController.m */,
+				887AEFF71DED429C00972868 /* VCTableViewCell.h */,
+				887AEFF81DED429C00972868 /* VCTableViewCell.m */,
+				887AEFF91DED429C00972868 /* VCTableViewCell.xib */,
 				887AEFCD1DED424000972868 /* Main.storyboard */,
 				887AEFD01DED424000972868 /* Assets.xcassets */,
 				887AEFD21DED424000972868 /* LaunchScreen.storyboard */,
@@ -207,6 +215,7 @@
 				TargetAttributes = {
 					887AEFC01DED424000972868 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K23Z7P2Y2K;
 						ProvisioningStyle = Automatic;
 					};
 					887AEFD91DED424000972868 = {
@@ -246,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887AEFFB1DED429C00972868 /* VCTableViewCell.xib in Resources */,
 				887AEFD41DED424000972868 /* LaunchScreen.storyboard in Resources */,
 				887AEFD11DED424000972868 /* Assets.xcassets in Resources */,
 				887AEFCF1DED424000972868 /* Main.storyboard in Resources */,
@@ -273,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887AEFFA1DED429C00972868 /* VCTableViewCell.m in Sources */,
 				887AEFCC1DED424000972868 /* ViewController.m in Sources */,
 				887AEFC91DED424000972868 /* AppDelegate.m in Sources */,
 				887AEFC61DED424000972868 /* main.m in Sources */,
@@ -422,7 +433,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K23Z7P2Y2K;
 				INFOPLIST_FILE = TableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.golddata.TableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +446,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K23Z7P2Y2K;
 				INFOPLIST_FILE = TableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.golddata.TableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
